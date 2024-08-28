@@ -6,7 +6,8 @@
   "scripts": {
   "install-client": "cd client && npm install",
   "build": "npm run install-client && cd client && npm run build",
-  "start": "node server/server.js"
+  "start": "node server/server.js",
+  "install": "cd server && npm install && ../client && npm install"
 },
   "keywords": [],
   "author": "",
